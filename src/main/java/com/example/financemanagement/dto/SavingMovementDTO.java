@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class SavingMovementDTO {
+public class  SavingMovementDTO {
     private Long id;
     private String type;
     private Double amount;
