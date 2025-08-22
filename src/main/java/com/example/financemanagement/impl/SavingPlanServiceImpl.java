@@ -37,6 +37,11 @@ private final ModelMapper modelMapper;
     }
 
     @Override
+    public SavingPlanDTO findSavingPlanByGoalName(String goalName) {
+        return null;
+    }
+
+    @Override
     public SavingPlanDTO findSavingPlanByName(String name) {
         return null;
     }

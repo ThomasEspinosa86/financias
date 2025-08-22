@@ -1,13 +1,15 @@
 package com.example.financemanagement;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class FinancemanagementApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FinancemanagementApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(FinancemanagementApplication.class, args);
+    }
 
 }

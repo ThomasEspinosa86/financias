@@ -7,5 +7,7 @@ public interface SavingPlanService {
     SavingPlanDTO getSavingPlanById(Long id);
     SavingPlanDTO updateSavingPlan(Long id, SavingPlanDTO savingPlanDTO);
     void deleteSavingPlan(Long id);
+    SavingPlanDTO findSavingPlanByGoalName(String goalName);
+
     SavingPlanDTO findSavingPlanByName(String name);
 }

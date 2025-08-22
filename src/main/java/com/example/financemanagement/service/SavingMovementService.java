@@ -7,5 +7,7 @@ public interface SavingMovementService {
     SavingMovementDTO getSavingMovementById(Long id);
     SavingMovementDTO updateSavingMovement(Long id, SavingMovementDTO savingMovementDTO);
     void deleteSavingMovement(Long id);
+
     SavingMovementDTO findSavingMovementByDescription(String description);
+    // Método de búsqueda por descripción eliminado.
 }

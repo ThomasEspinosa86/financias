@@ -2,7 +2,6 @@ package com.example.financemanagement.impl;
 
 import com.example.financemanagement.dto.SavingMovementDTO;
 import com.example.financemanagement.repository.SavingMovementRepository;
-import com.example.financemanagement.repository.SavingPlanRepository;
 import com.example.financemanagement.service.SavingMovementService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

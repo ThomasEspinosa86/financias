@@ -23,7 +23,7 @@ public class Transaction {
     @JoinColumn(name = "id_category", nullable = false)
     private Category category;
     @Column(name = "description", nullable = false, length = 255)
-    private String descrption;
+    private String description;
     @Column(name = "trasaction_date", nullable = false)
     private LocalDateTime date;
     @Column(name = "status", nullable = false, length = 50)
